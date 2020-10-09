@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src='scripts.js'></script>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <button>Start Game</button>
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Scissors</button>
-
-        <p id='message'>Click start to begin</p>
+        <h1>Rock | Paper | Scissors</h1>
+        <div id='messages'>
+            <h2 id='message'>Choose Rock, Paper, or Scissors to begin. <br> First to 5 wins!</h2>
+        </div>
+        <div id='scores'>
+        </div>
+        <button id='rock' class='choice'>Rock</button>
+        <button id='paper' class='choice'>Paper</button>
+        <button id='scissors' class='choice'>Scissors</button>
+        <script src='scripts.js'></script>
     </body>
 </html>
